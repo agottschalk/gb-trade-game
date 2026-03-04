@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "ab21807c-5f54-4441-a406-c376d72e0956",
+  "_index": 3,
+  "symbol": "actor_3",
+  "prefabId": "",
+  "name": "",
+  "coordinateType": "tiles",
+  "x": 18,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b8cbfb08-9a0d-4f21-bc4b-d4e330c27b76",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I run the\nwarehouses."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "671c9983-16d5-49e5-a850-415506f30bf9"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "35b486b8-5677-43ba-8cae-3c7e4f77cf72",
+  "_index": 0,
+  "symbol": "actor_5",
+  "prefabId": "b0199952-bad8-4cb0-8959-069107a7e52a",
+  "name": "",
+  "coordinateType": "tiles",
+  "x": 2,
+  "y": 3,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3cee5f2e-95f9-41d1-af62-c074ca7c0052",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {
+    "b8d99efd-4405-4153-a526-1501b017736e": {
+      "id": "b8d99efd-4405-4153-a526-1501b017736e",
+      "args": {
+        "text": [
+          "hello"
+        ]
+      }
+    },
+    "d46c43c1-0178-4437-a69f-9f17a932bfb2": {
+      "id": "d46c43c1-0178-4437-a69f-9f17a932bfb2",
+      "args": {
+        "variable": "21",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      }
+    },
+    "0771e258-c483-4285-bb37-4ba41cc1010b": {
+      "id": "0771e258-c483-4285-bb37-4ba41cc1010b",
+      "args": {
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "21"
+        }
+      }
+    }
+  },
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

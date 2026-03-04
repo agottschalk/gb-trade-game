@@ -1,0 +1,1055 @@
+{
+  "_resourceType": "script",
+  "id": "f5b88664-8ca9-4738-935f-f3dc2ad4e7c0",
+  "name": "update_mkt_menu_numbers",
+  "description": "Money has trailing spaces to cover up old text",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "17",
+        "value": {
+          "type": "expression",
+          "value": "$12$ + $11$ + $13$ + $24$ + $28$ + $32$"
+        },
+        "__collapse": true
+      },
+      "id": "fed82142-b21a-4daf-8061-ff049a4dc0bc"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "%D3$17$",
+        "x": 2,
+        "y": 0,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "51b0f6e0-82b8-4532-b526-d65fcb7c9869"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "$02$",
+        "x": 6,
+        "y": 0,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "f71d830b-16d0-42b9-be29-4843c2253aea"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true,
+        "__label": "Draw Money"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "$00$%D4$01$0   ",
+              "x": 11,
+              "y": 0,
+              "location": "background"
+            },
+            "id": "13e3817c-f7e4-4266-88c8-a79ecfa3ad47"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "$01$0      ",
+                    "x": 11,
+                    "y": 0,
+                    "location": "background"
+                  },
+                  "id": "6c8d3967-742b-4b1e-9c6b-e83d3666fc97"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "0        ",
+                    "x": 11,
+                    "y": 0,
+                    "location": "background"
+                  },
+                  "id": "fcae1800-48af-49d7-87ed-e898dae20184"
+                }
+              ]
+            },
+            "id": "9c5ed589-5d7b-46f9-ad0a-d20c23426eea"
+          }
+        ]
+      },
+      "id": "f4fe4be0-d0d9-4e60-b111-9b8be6451161"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "Draw cocoa qty"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "12"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 100
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "$12$ / 100"
+                    }
+                  },
+                  "id": "f06818cf-b8a9-496c-8975-56fea71e5042"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "b72775ea-8030-4753-a3d0-2ec5be172917"
+                }
+              ]
+            },
+            "id": "ad1ce292-212f-45d7-9472-ff4c4a0b0b23"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "12"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "($12$ / 10) % 10"
+                    }
+                  },
+                  "id": "b8a1a450-7935-4055-9731-9528c2fddb1f"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "8cdda2db-1079-41e7-88ce-81f7974ddb0b"
+                }
+              ]
+            },
+            "id": "149a5f69-1e5f-4094-b7cd-8806c3956683"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+              "tileIndex": {
+                "type": "expression",
+                "value": "$12$ % 10"
+              }
+            },
+            "id": "99b64164-0020-4c26-9337-312b69f83853"
+          }
+        ]
+      },
+      "id": "78cd68cc-405b-44ef-92b0-971f70ba5ac1"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "Draw sugar qty"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "11"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 100
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "$11$ / 100"
+                    }
+                  },
+                  "id": "b2c2089f-a90c-4084-89ff-d966649a8cef"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "9b709b02-ca85-47d4-a154-5ca42fe2284f"
+                }
+              ]
+            },
+            "id": "a975152b-7287-424e-8b4a-8ab0c59b6b02"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "11"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "($11$ / 10) % 10"
+                    }
+                  },
+                  "id": "3d13b294-2cb2-4f50-8b83-d2d7175b510c"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "0a582da5-268d-4ac2-b366-0f26a81e6ed2"
+                }
+              ]
+            },
+            "id": "30b89f9b-264f-4ab7-b8c8-04e9416ecef7"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+              "tileIndex": {
+                "type": "expression",
+                "value": "$11$ % 10"
+              }
+            },
+            "id": "186abef8-f92b-48ec-bde9-9aae54572913"
+          }
+        ]
+      },
+      "id": "66fc0cf2-a0f6-42ef-a0c5-ad62f4844130"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "Draw lumber qty"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "13"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 100
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "$13$ / 100"
+                    }
+                  },
+                  "id": "9e38ca16-15aa-457e-90d4-b6edf1a43815"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "73ec4003-cc3b-46a2-9518-8535f1cc6bce"
+                }
+              ]
+            },
+            "id": "b84cbb94-1e25-41f2-9a26-dcf418d60e0d"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "13"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "($13$ / 10) % 10"
+                    }
+                  },
+                  "id": "a6ca29f3-28c3-4a73-ad07-9d0b9bb09259"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "ff94d6c0-3a78-4d4c-b7a5-da4cf9211b82"
+                }
+              ]
+            },
+            "id": "d14a8334-3f4d-4c82-ad0c-6a7a5aee13c5"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+              "tileIndex": {
+                "type": "expression",
+                "value": "$13$ % 10"
+              }
+            },
+            "id": "4e435913-e22a-4437-8ccb-e1f610ef07fd"
+          }
+        ]
+      },
+      "id": "0e79ec68-78ff-46c6-8e24-236ba9fad1e4"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "Draw tobacco qty"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "24"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 100
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "$24$ / 100"
+                    }
+                  },
+                  "id": "9793fd31-4dc3-4937-8bb8-5441ec4f9228"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "e1c80a79-7f04-422e-8444-a36bd8aa18cb"
+                }
+              ]
+            },
+            "id": "ed539a1a-110e-4da6-9e63-cf08d16a1a20"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "24"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "($24$ / 10) % 10"
+                    }
+                  },
+                  "id": "72dbfb04-94f0-43da-a8fb-ba319f0c836d"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "42191847-7743-456a-b6c5-5c08d9a773f9"
+                }
+              ]
+            },
+            "id": "5ed20e15-aa55-4537-aa00-69cde7733d73"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+              "tileIndex": {
+                "type": "expression",
+                "value": "$24$ % 10"
+              }
+            },
+            "id": "fec977da-0ddc-452d-9e6d-e66b9b159270"
+          }
+        ]
+      },
+      "id": "fad7ac6f-33c8-4e8e-bf87-84fa404945b3"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "Draw wine qty"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "28"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 100
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "$27$ / 100"
+                    }
+                  },
+                  "id": "1c3e8881-2f44-4e14-a9cc-31c32a253e3c"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "42bc308a-e42a-4910-b0c8-720ff3114056"
+                }
+              ]
+            },
+            "id": "5cb2ac3c-7ee5-48aa-a70d-a3f82b2291c0"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "28"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "($28$ / 10) % 10"
+                    }
+                  },
+                  "id": "25e0c66e-9636-402d-9526-dbf525aaf846"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "438bd8a2-2fe2-4acd-a955-926d20b624dc"
+                }
+              ]
+            },
+            "id": "5f610c3d-5957-47ac-86e9-c8c7d82fbef9"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+              "tileIndex": {
+                "type": "expression",
+                "value": "$28$ % 10"
+              }
+            },
+            "id": "abdfd9e4-05e3-47b7-bdf5-36866ad17113"
+          }
+        ]
+      },
+      "id": "6674343d-3b0f-438c-afa2-7d1d18c0a755"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "Draw silver qty"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "32"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 100
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 13
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "$32$ / 100"
+                    }
+                  },
+                  "id": "ffd58b2b-6399-4e63-9383-f91dd8e36e08"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 13
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "a15c996c-a5ea-4aad-85de-f0804d632b8b"
+                }
+              ]
+            },
+            "id": "11006c7d-0fa5-4a84-ba2e-96f96a4c982e"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "32"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 13
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "expression",
+                      "value": "($32$ / 10) % 10"
+                    }
+                  },
+                  "id": "d44a60a2-6b68-446d-bf60-938d017a054d"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 13
+                    },
+                    "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "348260fa-4e53-42a2-bf72-96fe1ae9bdae"
+                }
+              ]
+            },
+            "id": "ac02e0b8-e7c5-45ed-a9c5-7a5495c50565"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+              "tileIndex": {
+                "type": "expression",
+                "value": "$32$ % 10"
+              }
+            },
+            "id": "514c83fb-12a7-4ffd-8464-b0c283e97498"
+          }
+        ]
+      },
+      "id": "140daf96-a0e0-485d-a9cb-750e2b0ed827"
+    }
+  ]
+}

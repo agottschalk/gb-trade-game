@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "73c56ce3-b195-4134-a668-648ef1b94192",
+  "name": "market_phantasm_facsimile_v3",
+  "symbol": "sprite_market_phantasm_facs",
+  "tileColors": "",
+  "filename": "market_phantasm_facsimile_v3.png",
+  "width": 20,
+  "height": 34,
+  "imageWidth": 160,
+  "imageHeight": 272,
+  "autoColor": false
+}

@@ -1,0 +1,229 @@
+{
+  "_resourceType": "script",
+  "id": "de5b74c4-9dd2-4b4c-8252-321330bd9a72",
+  "name": "sell_cargo",
+  "description": "Set item_id and transaction_qty before calling",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "21",
+        "choices": 6,
+        "__collapseCase0": false,
+        "__collapseCase1": false,
+        "__collapseCase2": false,
+        "__collapseCase3": false,
+        "__collapseCase4": false,
+        "__collapseCase5": false,
+        "__collapseCase6": false,
+        "__collapseCase7": false,
+        "__collapseCase8": false,
+        "__collapseCase9": false,
+        "__collapseCase10": false,
+        "__collapseCase11": false,
+        "__collapseCase12": false,
+        "__collapseCase13": false,
+        "__collapseCase14": false,
+        "__collapseCase15": false,
+        "__collapseElse": false,
+        "value0": {
+          "type": "number",
+          "value": 1
+        },
+        "value1": {
+          "type": "number",
+          "value": 2
+        },
+        "value2": {
+          "type": "number",
+          "value": 3
+        },
+        "value3": {
+          "type": "number",
+          "value": 4
+        },
+        "value4": {
+          "type": "number",
+          "value": 5
+        },
+        "value5": {
+          "type": "number",
+          "value": 6
+        },
+        "__collapse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "expression",
+                "value": "$12$ - $20$"
+              }
+            },
+            "id": "8df944c6-9ae8-4ffd-ab59-161768aff5c1"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "expression",
+                "value": "$01$ + ($20$ * $15$)"
+              }
+            },
+            "id": "7acbb9d6-389f-4056-b135-82e6ed76abe2"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "11",
+              "value": {
+                "type": "expression",
+                "value": "$11$ - $20$"
+              }
+            },
+            "id": "a15cf2f9-b688-4bc9-b455-27adbcf7b89c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "expression",
+                "value": "$01$ + ($20$ * $14$)"
+              }
+            },
+            "id": "c360987c-6957-4ce5-8683-ecf6eabac7e2"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "13",
+              "value": {
+                "type": "expression",
+                "value": "$13$ - $20$"
+              }
+            },
+            "id": "a99ea478-33bd-499e-8ff2-35b128b75e5e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "expression",
+                "value": "$01$ + ($20$ * $16$)"
+              }
+            },
+            "id": "f0c60f90-1af8-48f5-a94a-7c9e6ba36b70"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "24",
+              "value": {
+                "type": "expression",
+                "value": "$24$ - $20$"
+              }
+            },
+            "id": "966a2944-3f50-4232-9dbf-e572e7a9fec7"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "expression",
+                "value": "$01$ + ($20$ * $23$)"
+              }
+            },
+            "id": "e3f1a709-8854-48a9-9bfb-7116bfb37cfe"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "expression",
+                "value": "$28$ - $20$"
+              }
+            },
+            "id": "680b0f35-93b3-42e0-a442-a5b0bdc7b0c8"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "expression",
+                "value": "$01$ + ($20$ * $27$)"
+              }
+            },
+            "id": "798addf0-1cc6-4e77-a6ac-f8a2045ace8a"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "32",
+              "value": {
+                "type": "expression",
+                "value": "$32$ - $20$"
+              }
+            },
+            "id": "b23e3eed-e5d6-44cc-9bf7-4fb7d38bf21a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "expression",
+                "value": "$01$ + ($20$ * $31$)"
+              }
+            },
+            "id": "a3d7d8a4-97d3-450e-a335-dbe807312553"
+          }
+        ],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "cea40bb6-3a71-40ef-afe3-b5ba32f1b8e2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "7e238d4a-5fe9-4ff0-8635-1c9b7072659d"
+    }
+  ]
+}

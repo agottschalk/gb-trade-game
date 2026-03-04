@@ -1,0 +1,155 @@
+{
+  "_resourceType": "sprite",
+  "id": "716afef3-b26a-4120-994f-c304c9127516",
+  "name": "hairband_counter",
+  "symbol": "sprite_hairband_counter",
+  "states": [
+    {
+      "id": "d805d487-ea2c-4561-bada-4676956ae2b1",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "222e234d-ddc1-4443-a01c-baac6fdf9325",
+          "frames": [
+            {
+              "id": "94745f72-2b2e-4868-af53-c4b98f9a7e5c",
+              "tiles": [
+                {
+                  "id": "a94e7505-9c40-4de6-8c82-d5a79b6632c2",
+                  "x": 0,
+                  "y": 16,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "6fedcabe-61b6-4b02-aa48-ac1d764c7297",
+                  "x": -1,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "4390ad41-e846-4309-9f56-9b8adf8950e3",
+                  "x": 8,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "d3b161f6-1bab-45e2-ae16-82fb452c0dc0",
+                  "x": 7,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2fd8f53a-7b9a-4120-8762-bf94f62ee08a",
+          "frames": [
+            {
+              "id": "1d332b97-4c21-487b-b6f1-fd847496db12",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bb9363d0-0ad7-42fc-a6f3-f87a4f139539",
+          "frames": [
+            {
+              "id": "82ed24f6-bbc9-4097-9470-cf3e843ed3e4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "921551be-853d-4c5e-a93e-d8c2243b7ad8",
+          "frames": [
+            {
+              "id": "b9a18516-55c1-40e8-8505-3a89df6396ea",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b6ead5c0-17c9-46ce-a9f6-e9826f344a43",
+          "frames": [
+            {
+              "id": "2126731e-0516-4363-88eb-c265d14558cb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a30900af-06f6-41f0-bb80-2cd961e531f3",
+          "frames": [
+            {
+              "id": "9e766a09-ee78-4d84-bde7-e5deb02f7996",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "20cf1b61-945b-4ada-be11-96ba541eb427",
+          "frames": [
+            {
+              "id": "4b5ad5a2-5733-4fae-a28b-91e10898d890",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ca857306-c514-4334-8a06-6eef6437ce7d",
+          "frames": [
+            {
+              "id": "adaf2703-5b47-4a72-aa1b-ca9a2814f9b4",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "hairband_counter.png",
+  "width": 16,
+  "height": 32,
+  "checksum": "06696dd60778c0739f18494d499a829b69fda084"
+}

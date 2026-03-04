@@ -1,0 +1,110 @@
+{
+  "_resourceType": "script",
+  "id": "d5c88884-bcb4-4653-83ef-60e412c184ef",
+  "name": "big_add",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "A High",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "A Low",
+      "passByReference": false
+    },
+    "V2": {
+      "id": "V2",
+      "name": "B High",
+      "passByReference": false
+    },
+    "V3": {
+      "id": "V3",
+      "name": "B Low",
+      "passByReference": false
+    },
+    "V4": {
+      "id": "V4",
+      "name": "Sum High",
+      "passByReference": true
+    },
+    "V5": {
+      "id": "V5",
+      "name": "Sum Low",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V4",
+        "value": {
+          "type": "expression",
+          "value": "$V0$ + $V2$"
+        },
+        "__collapse": false
+      },
+      "id": "583c1fb5-8d54-41ea-b1d1-96db4e368f90"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V5",
+        "value": {
+          "type": "expression",
+          "value": "$V1$ + $V3$"
+        }
+      },
+      "id": "7dd83a4c-636b-49c7-bf4d-260dd7021546"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "V5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 9999
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V4",
+              "value": {
+                "type": "expression",
+                "value": "$V4$ + 1"
+              }
+            },
+            "id": "c65500d8-8fd2-4172-90bb-9c03283ebb88"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V5",
+              "value": {
+                "type": "expression",
+                "value": "$V5$ - 10000"
+              }
+            },
+            "id": "06ed5610-11a5-4756-9104-098466fc1041"
+          }
+        ],
+        "false": []
+      },
+      "id": "3a43efb2-7034-4bb6-9b9f-6b7aaa42e3b4"
+    }
+  ]
+}

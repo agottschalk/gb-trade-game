@@ -1,0 +1,88 @@
+{
+  "_resourceType": "script",
+  "id": "bbb5d79d-dbb4-4e5c-a537-c84fae67f70d",
+  "name": "draw_transaction_qty",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "m_transaction_qty",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V0",
+        "value": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "__collapse": true
+      },
+      "id": "e7212647-b5b7-4322-bace-cd3cc2751795"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 20
+        },
+        "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+        "tileIndex": {
+          "type": "expression",
+          "value": "$V0$ / 100"
+        },
+        "__collapse": true
+      },
+      "id": "90ac8405-717b-4458-b7b7-55f9fb4c7386"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 20
+        },
+        "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+        "tileIndex": {
+          "type": "expression",
+          "value": "($V0$ / 10) % 10"
+        },
+        "__collapse": false
+      },
+      "id": "4aadbed8-2904-4062-9176-4b156fb3159c"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 20
+        },
+        "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
+        "tileIndex": {
+          "type": "expression",
+          "value": "$V0$ % 10"
+        }
+      },
+      "id": "88733507-e247-460e-bab4-c554f4cdeb99"
+    }
+  ]
+}

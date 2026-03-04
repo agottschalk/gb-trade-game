@@ -1,0 +1,89 @@
+{
+  "_resourceType": "script",
+  "id": "c77e80ab-ef7f-4117-996f-7cdc2c3086b1",
+  "name": "set_prices",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Set Prices",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "15",
+              "value": {
+                "type": "expression",
+                "value": "$07$ + rnd($08$)"
+              }
+            },
+            "id": "c9099f40-5278-45aa-99fd-5838bb720212"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "14",
+              "value": {
+                "type": "expression",
+                "value": "$05$ + rnd($06$)"
+              }
+            },
+            "id": "629c4bcc-6370-4c30-9531-a5e0729e063b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "expression",
+                "value": "$09$ + rnd($10$)"
+              }
+            },
+            "id": "66324b7e-a8a8-40a5-9557-3748d06877b9"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "23",
+              "value": {
+                "type": "expression",
+                "value": "$19$ + rnd($22$)"
+              }
+            },
+            "id": "7e2e70be-b501-4078-b560-dad36a81e3bc"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "27",
+              "value": {
+                "type": "expression",
+                "value": "$25$ + rnd($26$)"
+              }
+            },
+            "id": "56fbda19-ea54-4f40-beae-f53937b8f195"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "31",
+              "value": {
+                "type": "expression",
+                "value": "$29$ + rnd($30$)"
+              }
+            },
+            "id": "acfa9ae9-fd5d-4d97-b25f-4d3058f91a5b"
+          }
+        ]
+      },
+      "id": "a4085aff-f119-431c-a5bb-568a71caf32c"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a9cd2bfc-8282-42fd-b4d5-5440f46a3f04",
+  "name": "trade_title_screen",
+  "symbol": "bg_trade_title_screen",
+  "tileColors": "",
+  "filename": "trade_title_screen.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

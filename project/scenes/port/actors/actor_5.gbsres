@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "dff7886d-ddb2-42fa-9844-a6c52c0d003e",
+  "_index": 4,
+  "symbol": "actor_4",
+  "prefabId": "",
+  "name": "",
+  "coordinateType": "tiles",
+  "x": 52,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ad2e7d0b-d4e4-485f-b318-473669545765",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This is the bank\nand moneylender."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7ebe018b-ee6b-46a1-bc52-88a8f097b54e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,153 @@
+{
+  "_resourceType": "script",
+  "id": "56ae144f-7e08-42c9-b864-24900819de71",
+  "name": "big_mult",
+  "description": "multiplies two numbers of less than 9999 each and stores the product in the two product variables",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "x",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "y",
+      "passByReference": false
+    },
+    "V2": {
+      "id": "V2",
+      "name": "x low",
+      "passByReference": false
+    },
+    "V3": {
+      "id": "V3",
+      "name": "y low",
+      "passByReference": false
+    },
+    "V4": {
+      "id": "V4",
+      "name": "prod high",
+      "passByReference": true
+    },
+    "V5": {
+      "id": "V5",
+      "name": "prod low",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V2",
+        "value": {
+          "type": "expression",
+          "value": "$x % 100"
+        }
+      },
+      "id": "aa958e43-a9d2-4a38-b4b3-fff2f5a79318"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V0",
+        "value": {
+          "type": "expression",
+          "value": "$V0$ / 100"
+        }
+      },
+      "id": "4e470767-e66d-4b72-b06d-22e6831381a3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V3",
+        "value": {
+          "type": "expression",
+          "value": "$y % 100"
+        }
+      },
+      "id": "e3dfef8a-6a4b-428f-aa21-5b09e8f551cf"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V1",
+        "value": {
+          "type": "expression",
+          "value": "$V1$ / 100"
+        }
+      },
+      "id": "84900887-7a19-420a-8b10-aa3fa4022320"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V4",
+        "value": {
+          "type": "expression",
+          "value": "$V0$ * $V1$ + ($V0$ * $V3$ + $V2$ * $V1$) / 100"
+        }
+      },
+      "id": "5cd44569-d489-4e83-9a00-1d74e6c7036a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V5",
+        "value": {
+          "type": "expression",
+          "value": "$V2$ * $V3$ + (($V0$ * $V3$ + $V2$ * $V1$) % 100 * 100)"
+        }
+      },
+      "id": "8be974b8-d730-4dd0-ad0c-6deff202b6ba"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "V5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 9999
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V4",
+              "value": {
+                "type": "expression",
+                "value": "$V4$ + 1"
+              }
+            },
+            "id": "732f38e5-df8d-43b8-9f0c-ebba1f2b84e5"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V5",
+              "value": {
+                "type": "expression",
+                "value": "$V5$ - 10000"
+              }
+            },
+            "id": "77c3102a-1b71-46b0-872f-5fdd0acd548e"
+          }
+        ],
+        "false": []
+      },
+      "id": "44a4ada0-1177-4878-a98e-68fe23e8e525"
+    }
+  ]
+}

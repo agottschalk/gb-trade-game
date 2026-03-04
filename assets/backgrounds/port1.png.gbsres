@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "627b26e8-06b8-401d-bc90-315a7858c643",
+  "name": "port1",
+  "symbol": "bg_port1",
+  "tileColors": "",
+  "filename": "port1.png",
+  "width": 60,
+  "height": 40,
+  "imageWidth": 480,
+  "imageHeight": 320,
+  "autoColor": false
+}

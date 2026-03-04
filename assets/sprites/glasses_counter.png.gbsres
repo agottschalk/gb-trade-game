@@ -1,0 +1,155 @@
+{
+  "_resourceType": "sprite",
+  "id": "b5974fdc-0a0d-4dba-be2e-d8c14a562b73",
+  "name": "glasses_counter",
+  "symbol": "sprite_glasses_counter",
+  "states": [
+    {
+      "id": "11c9de78-d25c-4004-b464-f4e6e097cb7a",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "9def5316-ec5b-4e7e-a899-33df2ee02c96",
+          "frames": [
+            {
+              "id": "e104d8a4-e63f-4b86-8e14-39f289836790",
+              "tiles": [
+                {
+                  "id": "1de98dbd-9e85-46e2-8e26-9784ad3437e7",
+                  "x": 0,
+                  "y": 16,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "9da79076-69a9-44a1-a7b6-d311778cf681",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "7f4a6342-ce49-481c-8335-ac094d0e7574",
+                  "x": 8,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "67a7f66f-4a8c-4d6a-bfb0-89f106fa89a0",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5fb28d62-5066-4c68-87a7-81a803fc8a93",
+          "frames": [
+            {
+              "id": "c31a567c-c1f5-40b0-85cb-04743c1d723c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d1ea867c-5bf0-4f6d-bdbb-4120526562f0",
+          "frames": [
+            {
+              "id": "6e133d1e-d389-401c-9895-90a29217c987",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c07314a3-9458-4ede-966c-0226d28288e4",
+          "frames": [
+            {
+              "id": "0c08aee4-911f-4adf-80e2-f52484119633",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e6aa5e36-725c-4ffc-a3ce-c607e2ef7561",
+          "frames": [
+            {
+              "id": "20b221a6-c564-4852-85db-4bd0b4ad3f83",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "89dbb197-b3c1-496f-9d23-89248f9f31e2",
+          "frames": [
+            {
+              "id": "1d626b1d-67bb-4d8a-a5ed-b36bee7311e0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c25ab627-4d86-404d-9c61-93f17645d2d9",
+          "frames": [
+            {
+              "id": "fd1111b9-5e89-434f-b4db-cc9b7a1e194e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f041e9fb-1c8d-400c-b63e-fe515bd6a9e2",
+          "frames": [
+            {
+              "id": "c37a466f-240c-4890-91c1-aefc9a63a304",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "glasses_counter.png",
+  "width": 16,
+  "height": 32,
+  "checksum": "65a997587d0093bd7a5bb8c37ebc94f678117e16"
+}

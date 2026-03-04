@@ -1,0 +1,207 @@
+{
+  "_resourceType": "sprite",
+  "id": "0ed81f1c-7dd2-46f5-bc5a-985d9a174f20",
+  "name": "woman_at_counter",
+  "symbol": "sprite_woman_at_counter_png",
+  "states": [
+    {
+      "id": "b4c361a8-7901-4ab3-9655-d1890cdb32dc",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "9eaebc0b-09f2-46bb-9cce-6f9f9b4d0c89",
+          "frames": [
+            {
+              "id": "26a65ea9-8edb-4eec-b9b2-4be7e1a02d4c",
+              "tiles": [
+                {
+                  "id": "cac2fc88-ef19-487e-86fa-ebf9a3fd53f5",
+                  "x": 0,
+                  "y": 16,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "a3e25209-2d3f-4772-85e4-ce076f01369c",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "0550915f-3d5d-46b6-b69e-09d6941ce6a9",
+                  "x": 8,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "a4b9a40c-276c-46a7-80c8-b98a1aceeacd",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "031b603d-1eee-4a10-8c6b-6e0f80ecb09b",
+                  "x": 0,
+                  "y": 16,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "e6560318-d4c8-4640-ae2e-969862385259",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "2485f8dd-aa7b-40a4-8fbf-555bc19b93fb",
+                  "x": 8,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "3da02fb4-683e-4e54-951a-3d3c22940b6e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8eade698-9612-4b57-b1a0-c23ef919be01",
+          "frames": [
+            {
+              "id": "bbdc1c9e-5470-437e-a27a-7ac0a81b6e1f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "00be6bc3-06eb-4fbe-9b9c-ef815546b1cb",
+          "frames": [
+            {
+              "id": "6160329a-f479-49c5-97dc-58997a5f9a8f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "13139b6a-6c16-404d-a75c-de4dbdc5ef23",
+          "frames": [
+            {
+              "id": "07c664f9-0f34-4de8-b56d-4260b6a05697",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "33beeab0-79d4-4d03-bdf0-d51220ffeb28",
+          "frames": [
+            {
+              "id": "872f9e73-9c3b-481b-917e-78b7bec8971a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1408dd44-7410-4d02-86ce-86f8de3d5b24",
+          "frames": [
+            {
+              "id": "cbae7114-d2a0-46af-b9fc-57ea0e0b3113",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5f45fcf5-c80e-47e4-bddc-1910c950fdfe",
+          "frames": [
+            {
+              "id": "594e055e-af47-4db7-8070-26ce830910dc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "95c27f91-d8f2-4024-b472-d0b672fa34fc",
+          "frames": [
+            {
+              "id": "6633705e-a9dd-4d56-9da7-2d96ff5428c1",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "woman_at_counter.png",
+  "width": 16,
+  "height": 32,
+  "checksum": "4d30bfee71379d0f6d67b3bc1eeb90911cbb9e4e"
+}

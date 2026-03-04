@@ -1,0 +1,183 @@
+{
+  "_resourceType": "sprite",
+  "id": "3cee5f2e-95f9-41d1-af62-c074ca7c0052",
+  "name": "beard_man_static",
+  "symbol": "sprite_beard_man_static",
+  "states": [
+    {
+      "id": "3815f24a-f8e0-48e0-ba0e-48d9f5eccaaa",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "97a5f719-b32f-42a2-90b1-8ad564720871",
+          "frames": [
+            {
+              "id": "a4069b03-091f-40b4-a333-dcc845ac6b76",
+              "tiles": [
+                {
+                  "id": "ba469f31-254b-4853-9b7d-c289c139afba",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "573dcc30-a51d-4bf5-bf86-ae2398999b48",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2e045175-70ac-4f00-9206-36c0bdaa5905",
+          "frames": [
+            {
+              "id": "f2dd7fad-af4b-41fd-a623-969df5d0c7d2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8c7917fe-fbf1-4cbf-aa2a-66b593d3d916",
+          "frames": [
+            {
+              "id": "255695b9-9817-429c-94d1-2e68486842b3",
+              "tiles": [
+                {
+                  "id": "6d7d4535-6a60-4707-9d56-6c78b1ced743",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "207efbf9-16d4-432b-9847-c59d4e5caee4",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "25e6a89a-5714-4221-a387-bb6ee27cfa9d",
+          "frames": [
+            {
+              "id": "83a0d2d2-4cf5-460d-a9fd-d3e3b016c9d8",
+              "tiles": [
+                {
+                  "id": "a81aca52-1e65-493a-ad3c-fcf6d2bce5c7",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "31298129-bb3e-4084-bd98-a129356cc182",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4fbcfb5a-727c-4f5a-929c-93713b1b8c0f",
+          "frames": [
+            {
+              "id": "a401e4a3-9d8f-4ef8-86a9-659c24dd7efb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e080273b-c8c0-48f8-a09c-b17f6a500d20",
+          "frames": [
+            {
+              "id": "e3fc954c-54b5-4f76-a772-99ad06842a68",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "27475483-3a56-4883-81be-a74f19d30e1c",
+          "frames": [
+            {
+              "id": "5a7182f7-52b3-4ce9-aeae-ae8b1471a97f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "021a052b-6545-4a09-a1b1-240135e914e6",
+          "frames": [
+            {
+              "id": "8e5717c4-d63c-4370-ae0f-7640d931b549",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 5,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "beard_man_static.png",
+  "width": 48,
+  "height": 16,
+  "checksum": "e23d0610f94fcb4cf9a41fd2ea7c9157cb5c40d5"
+}

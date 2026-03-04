@@ -1,0 +1,284 @@
+{
+  "_resourceType": "actor",
+  "id": "9649e286-c1bd-4362-8e92-9d24af3a1813",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2e21e48a-8228-4a36-825f-e70965cafaca",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_12",
+  "script": [
+    {
+      "id": "e6079e1a-91b5-490f-80bf-ac20f6d4cba6",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Sell cocoa",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "dc93238e-38d5-478e-a687-f26d6f660b8c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "20",
+              "value": {
+                "type": "variable",
+                "value": "12"
+              }
+            },
+            "id": "174eb79a-eae4-426e-ad8e-14cc3c13cadd"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "de5b74c4-9dd2-4b4c-8252-321330bd9a72"
+            },
+            "id": "021f3972-750e-482a-acf8-3517d62a6c37"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e4ec8767-5ea6-47c7-b3cd-9e03fdf74324",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Sell sugar",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "52555802-ba3c-4881-a298-a2008d4107f4"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "20",
+              "value": {
+                "type": "variable",
+                "value": "11"
+              }
+            },
+            "id": "da0af0fd-f34f-4942-9a8e-72ae01678b2a"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "de5b74c4-9dd2-4b4c-8252-321330bd9a72"
+            },
+            "id": "8dfe526d-d2c8-40e4-9824-90380f3eed82"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a883b612-1f39-484c-9f20-d7dec73d11da",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Sell lumber",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "1d0d2658-2d7c-4aee-8416-878d2d993d90"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "20",
+              "value": {
+                "type": "variable",
+                "value": "13"
+              }
+            },
+            "id": "850189f3-c9dd-4fb9-8b14-0529067e2b4f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "de5b74c4-9dd2-4b4c-8252-321330bd9a72"
+            },
+            "id": "8f8befca-3e8d-4333-952d-3838b7d951a2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4147e9e2-f9ba-49f9-990a-4bc17b36b120",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Sell tobacco",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "e5ac2bb4-bd17-47a7-abd0-a9eb438c50fa"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "20",
+              "value": {
+                "type": "variable",
+                "value": "24"
+              }
+            },
+            "id": "64382c1d-5e7c-412e-b432-dd76ef11e72e"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "de5b74c4-9dd2-4b4c-8252-321330bd9a72"
+            },
+            "id": "7088f337-92a7-45e4-b522-6f633f2706e7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eb7383bc-bf0f-4e0e-a098-d71f2bdd8ae8",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Sell wine",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 5
+              }
+            },
+            "id": "e604dfd0-ffcd-423f-ab2e-438e34bbc252"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "20",
+              "value": {
+                "type": "variable",
+                "value": "28"
+              }
+            },
+            "id": "fdafc807-7eef-405e-aa0b-a89b57e71ce0"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "de5b74c4-9dd2-4b4c-8252-321330bd9a72"
+            },
+            "id": "ee7f15ae-a744-46a4-9f91-a92876d8e8fc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dde7536f-800b-41b3-be64-e93c38a5c915",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Sell silver",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "number",
+                "value": 6
+              }
+            },
+            "id": "4a4f6ca4-eb36-4a8b-985a-40b6fb87e4c1"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "20",
+              "value": {
+                "type": "variable",
+                "value": "32"
+              }
+            },
+            "id": "282d8238-31b0-456f-8b1b-f84db62f03aa"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "de5b74c4-9dd2-4b4c-8252-321330bd9a72"
+            },
+            "id": "ed357239-a6d2-4da5-b24d-3d86a05b6595"
+          }
+        ]
+      }
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f5b88664-8ca9-4738-935f-f3dc2ad4e7c0",
+        "__collapse": true
+      },
+      "id": "05468c79-48fe-45f0-a7b5-0b1352474eaf"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 2,
+  "y": 15,
+  "_index": 6
+}

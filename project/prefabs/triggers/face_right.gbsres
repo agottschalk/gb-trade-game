@@ -1,0 +1,19 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "41ffde2d-d4be-49c5-b759-10f56ffcc421",
+  "name": "face_right",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "5ed59eb6-93e3-40bb-873a-837a9f24bfe3"
+    }
+  ],
+  "leaveScript": []
+}

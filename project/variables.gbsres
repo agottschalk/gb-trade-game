@@ -1,0 +1,241 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "money_high",
+      "symbol": "var_money_high"
+    },
+    {
+      "id": "1",
+      "name": "money_low",
+      "symbol": "var_money_low"
+    },
+    {
+      "id": "2",
+      "name": "cargo_cap",
+      "symbol": "var_cargo_cap"
+    },
+    {
+      "id": "3",
+      "name": "hull_max",
+      "symbol": "var_hull_max"
+    },
+    {
+      "id": "4",
+      "name": "hull_curr",
+      "symbol": "var_hull_curr"
+    },
+    {
+      "id": "5",
+      "name": "sugar_base",
+      "symbol": "var_sugar_base"
+    },
+    {
+      "id": "6",
+      "name": "sugar_var",
+      "symbol": "var_sugar_var"
+    },
+    {
+      "id": "7",
+      "name": "cocoa_base",
+      "symbol": "var_cocoa_base"
+    },
+    {
+      "id": "8",
+      "name": "cocoa_var",
+      "symbol": "var_cocoa_var"
+    },
+    {
+      "id": "9",
+      "name": "lumber_base",
+      "symbol": "var_lumber_base"
+    },
+    {
+      "id": "10",
+      "name": "lumber_var",
+      "symbol": "var_lumber_var"
+    },
+    {
+      "id": "11",
+      "name": "sugar_qty",
+      "symbol": "var_sugar_qty"
+    },
+    {
+      "id": "12",
+      "name": "cocoa_qty",
+      "symbol": "var_cocoa_qty"
+    },
+    {
+      "id": "13",
+      "name": "lumber_qty",
+      "symbol": "var_lumber_qty"
+    },
+    {
+      "id": "14",
+      "name": "sugar_price",
+      "symbol": "var_sugar_price"
+    },
+    {
+      "id": "15",
+      "name": "cocoa_price",
+      "symbol": "var_cocoa_price_0"
+    },
+    {
+      "id": "16",
+      "name": "lumber_price",
+      "symbol": "var_lumber_price_0"
+    },
+    {
+      "id": "17",
+      "name": "cargo",
+      "symbol": "var_cargo"
+    },
+    {
+      "id": "18",
+      "name": "buy_or_sell",
+      "symbol": "var_buy_or_sell"
+    },
+    {
+      "id": "19",
+      "name": "tobacco_base",
+      "symbol": "var_tobacco_base"
+    },
+    {
+      "id": "20",
+      "name": "transaction_qty_g",
+      "symbol": "var_transaction_qty_g"
+    },
+    {
+      "id": "21",
+      "name": "item_id_g",
+      "symbol": "var_item_id_g"
+    },
+    {
+      "id": "22",
+      "name": "tobacco_var",
+      "symbol": "var_tobacco_var"
+    },
+    {
+      "id": "23",
+      "name": "tobacco_price",
+      "symbol": "var_tobacco_price"
+    },
+    {
+      "id": "24",
+      "name": "tobacco_qty",
+      "symbol": "var_tobacco_qty"
+    },
+    {
+      "id": "25",
+      "name": "wine_base",
+      "symbol": "var_wine_base"
+    },
+    {
+      "id": "26",
+      "name": "wine_var",
+      "symbol": "var_wine_var"
+    },
+    {
+      "id": "27",
+      "name": "wine_price",
+      "symbol": "var_wine_price"
+    },
+    {
+      "id": "28",
+      "name": "wine_qty",
+      "symbol": "var_wine_qty"
+    },
+    {
+      "id": "29",
+      "name": "silver_base",
+      "symbol": "var_silver_base"
+    },
+    {
+      "id": "30",
+      "name": "silver_var",
+      "symbol": "var_silver_var"
+    },
+    {
+      "id": "31",
+      "name": "silver_price",
+      "symbol": "var_silver_price"
+    },
+    {
+      "id": "32",
+      "name": "silver_qty",
+      "symbol": "var_silver_qty"
+    },
+    {
+      "id": "33",
+      "name": "max_qty_g",
+      "symbol": "var_max_qty_g"
+    },
+    {
+      "id": "6ff28aa9-b7b8-4f7a-beb3-670a5c8bfbf8__L0",
+      "name": "Menu Choice",
+      "symbol": "var_menu_choice"
+    },
+    {
+      "id": "fdd20e4f-1802-4413-876b-8a956ffe7226__L0",
+      "name": "buy_sell",
+      "symbol": "var_buy_sell"
+    },
+    {
+      "id": "fdd20e4f-1802-4413-876b-8a956ffe7226__L1",
+      "name": "item",
+      "symbol": "var_item"
+    },
+    {
+      "id": "fdd20e4f-1802-4413-876b-8a956ffe7226__L2",
+      "name": "qty",
+      "symbol": "var_qty"
+    },
+    {
+      "id": "fdd20e4f-1802-4413-876b-8a956ffe7226__L3",
+      "name": "qty hundreds",
+      "symbol": "var_qty_hundreds"
+    },
+    {
+      "id": "fdd20e4f-1802-4413-876b-8a956ffe7226__L4",
+      "name": "qty tens",
+      "symbol": "var_qty_tens"
+    },
+    {
+      "id": "fdd20e4f-1802-4413-876b-8a956ffe7226__L5",
+      "name": "qty ones",
+      "symbol": "var_qty_ones"
+    },
+    {
+      "id": "b0199952-bad8-4cb0-8959-069107a7e52a__L0",
+      "name": "buy_sell_choice",
+      "symbol": "var_buy_sell_choice"
+    },
+    {
+      "id": "b0199952-bad8-4cb0-8959-069107a7e52a__L1",
+      "name": "quantity",
+      "symbol": "var_quantity"
+    },
+    {
+      "id": "b0199952-bad8-4cb0-8959-069107a7e52a__L2",
+      "name": "item",
+      "symbol": "var_item_0"
+    },
+    {
+      "id": "e76a07bc-2275-4568-81c7-10dc1fe9fc10__L0",
+      "name": "frame_number",
+      "symbol": "var_frame_number"
+    },
+    {
+      "id": "e76a07bc-2275-4568-81c7-10dc1fe9fc10__L1",
+      "name": "counter",
+      "symbol": "var_counter"
+    },
+    {
+      "id": "4d7cc1ec-056e-4fb5-8426-b2bd48fb7780__L0",
+      "name": "visibility toggle",
+      "symbol": "var_visibility_toggle"
+    }
+  ],
+  "constants": []
+}

@@ -1,0 +1,103 @@
+{
+  "_resourceType": "actor",
+  "id": "4ffcab0d-80a5-430e-b587-7a4f8841b034",
+  "_index": 1,
+  "symbol": "actor_1",
+  "prefabId": "",
+  "name": "",
+  "coordinateType": "tiles",
+  "x": 40,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0ed81f1c-7dd2-46f5-bc5a-985d9a174f20",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Welcome to the\nmarket!"
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f3d63250-dfb6-4f00-9db5-a6232c51acaf"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "T0",
+        "trueText": "Trade",
+        "falseText": "Leave"
+      },
+      "id": "c1a5cfb4-118a-4422-8982-68765b685039"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "T0"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "d2692cd1-9549-4cea-a15b-a125562e3d86"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "fdd20e4f-1802-4413-876b-8a956ffe7226",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "direction": "right",
+              "fadeSpeed": 1
+            },
+            "id": "7716cbf8-5e67-46dd-a79e-ef042bf6f48f"
+          }
+        ],
+        "false": []
+      },
+      "id": "d7a64aa5-ddcd-4351-82b5-cc90be8b52be"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
