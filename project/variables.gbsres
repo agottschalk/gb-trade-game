@@ -235,6 +235,11 @@
       "id": "4d7cc1ec-056e-4fb5-8426-b2bd48fb7780__L0",
       "name": "visibility toggle",
       "symbol": "var_visibility_toggle"
+    },
+    {
+      "id": "55694df8-52fa-4cb4-9af0-dcac5e90a955__L0",
+      "name": "location",
+      "symbol": "var_location"
     }
   ],
   "constants": []

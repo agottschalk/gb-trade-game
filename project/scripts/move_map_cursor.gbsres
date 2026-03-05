@@ -1,0 +1,175 @@
+{
+  "_resourceType": "script",
+  "id": "f30f0e48-8702-41b3-a519-3d37ab94858a",
+  "name": "move_map_cursor",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "destination",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "V0",
+        "choices": 4,
+        "__collapseCase0": false,
+        "__collapseCase1": false,
+        "__collapseCase2": false,
+        "__collapseCase3": false,
+        "__collapseCase4": false,
+        "__collapseCase5": false,
+        "__collapseCase6": false,
+        "__collapseCase7": false,
+        "__collapseCase8": false,
+        "__collapseCase9": false,
+        "__collapseCase10": false,
+        "__collapseCase11": false,
+        "__collapseCase12": false,
+        "__collapseCase13": false,
+        "__collapseCase14": false,
+        "__collapseCase15": false,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 61
+              },
+              "y": {
+                "type": "number",
+                "value": 50
+              },
+              "units": "pixels"
+            },
+            "id": "d2dbc820-90de-49e4-9dae-6c43f3e31e9b"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "Port Royal     ",
+              "x": 1,
+              "y": 17,
+              "location": "background",
+              "__collapse": false
+            },
+            "id": "1f15d791-62d4-48fa-a95c-3d52798b3094"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 82
+              },
+              "y": {
+                "type": "number",
+                "value": 38
+              },
+              "__collapse": false,
+              "units": "pixels"
+            },
+            "id": "39b1b11d-837a-4736-9dbb-dcbcaa6501f2"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "Tortuga     ",
+              "x": 1,
+              "y": 17,
+              "location": "background",
+              "__collapse": false
+            },
+            "id": "6a47b576-dfc4-4c37-b246-ca6483ba9061"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 115
+              },
+              "y": {
+                "type": "number",
+                "value": 50
+              },
+              "units": "pixels"
+            },
+            "id": "2ab80152-cde0-495c-bb1a-ac9da8f88ba1"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "Puerto Rico     ",
+              "x": 1,
+              "y": 17,
+              "location": "background",
+              "__collapse": false
+            },
+            "id": "2a3054ed-7e8e-4d42-b60e-07efa99cebc9"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 101
+              },
+              "y": {
+                "type": "number",
+                "value": 89
+              },
+              "__collapse": false,
+              "units": "pixels"
+            },
+            "id": "3b55c51b-5270-4ba9-8012-cb74010d24f0"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "Curacao     ",
+              "x": 1,
+              "y": 17,
+              "location": "background",
+              "__collapse": false
+            },
+            "id": "92843ee8-d176-41de-993e-e3c28f03b3e8"
+          }
+        ],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "abc8f701-ea63-48d7-b01a-d22674b71f9e"
+    }
+  ]
+}

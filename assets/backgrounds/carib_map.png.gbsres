@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "535bcfab-df0b-45a0-8b2a-bd485db4b641",
+  "name": "carib_map",
+  "symbol": "bg_carib_map",
+  "tileColors": "",
+  "filename": "carib_map.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
