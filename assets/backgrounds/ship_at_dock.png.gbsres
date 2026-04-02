@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "eaa9e1e1-eb2b-4962-9eec-fa8ee220b0fa",
+  "name": "ship_at_dock",
+  "symbol": "bg_ship_at_dock",
+  "tileColors": "",
+  "filename": "ship_at_dock.png",
+  "width": 28,
+  "height": 34,
+  "imageWidth": 224,
+  "imageHeight": 272
+}

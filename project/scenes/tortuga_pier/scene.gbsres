@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "cd787396-1d03-4873-bab2-52252c2c6491",
+  "_index": 4,
+  "name": "Tortuga Pier",
+  "backgroundId": "eaa9e1e1-eb2b-4962-9eec-fa8ee220b0fa",
+  "tilesetId": "",
+  "width": 28,
+  "height": 34,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00e4+0f12+00a+0f12+00a+0f12+00a+0f12+00a+0f4+00a+0f4+00a+0f4+00a+0f4+00a+0f6+008+0f4+00a+0f6+008+0f4+00a+0f4+00a+0f4+00a+0f4+00a+0f4+00a+0f4+008+0f6+00a+0f4+008+0f6+00a+0f4+00a+0f4+00a+0f4+00a+0f4+00a+0f6+006+0f6+00a+0f6+006+0f6+006+0f8+008+0f14+008+0f14+00a+0f12+00a+0fa+002+0f2+0014+0f2+004+0f2+0014+0f2+004+0f2+0012+0f2+006+0f2+0012+0f2+004+0fa+006+0f16+006+0fc+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 64,
+  "y": 336,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
