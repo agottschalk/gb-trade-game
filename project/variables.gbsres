@@ -245,6 +245,16 @@
       "id": "55694df8-52fa-4cb4-9af0-dcac5e90a955__L0",
       "name": "location",
       "symbol": "var_location"
+    },
+    {
+      "id": "a34c26fa-f3e5-47c9-9169-d9356c084375__L0",
+      "name": "x move",
+      "symbol": "var_x_move"
+    },
+    {
+      "id": "a34c26fa-f3e5-47c9-9169-d9356c084375__L1",
+      "name": "y move",
+      "symbol": "var_y_move"
     }
   ],
   "constants": []

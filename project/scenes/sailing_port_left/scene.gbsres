@@ -20,7 +20,7 @@
     {
       "command": "EVENT_COMMENT",
       "args": {
-        "text": "need to clean up sailing animation, it snaps between frames weirdly during the initial acceleration"
+        "text": "need to clean up sailing animation, it snaps between frames weirdly during the initial acceleration\nflicker can be fixed by cleaning up the common tile set - make sure it uses the 8x8 tiles that are actually DISPLAYED rather than the ones used as sources"
       },
       "id": "279717ab-091e-474c-8cc9-60b77bc743a5"
     },

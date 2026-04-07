@@ -16,7 +16,81 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_14",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Welcome to the\nmarket!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3c0e41d0-3bae-4a38-830c-38d839de42ce"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "T0",
+        "trueText": "Trade",
+        "falseText": "Leave"
+      },
+      "id": "91624087-ce57-41ce-928d-74cda0da6035"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "T0"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "03df06a9-f577-4a12-8b78-0ce375974d51"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "fdd20e4f-1802-4413-876b-8a956ffe7226",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "direction": "right",
+              "fadeSpeed": 1
+            },
+            "id": "e52df49c-2915-4592-9bfa-c5fe7d96d4f6"
+          }
+        ],
+        "false": []
+      },
+      "id": "613205c2-0857-4d7b-a6b9-9b7af4d1b85c"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
