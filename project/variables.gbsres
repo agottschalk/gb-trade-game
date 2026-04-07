@@ -172,6 +172,11 @@
       "symbol": "var_max_qty_g"
     },
     {
+      "id": "34",
+      "name": "destination",
+      "symbol": "var_destination"
+    },
+    {
       "id": "6ff28aa9-b7b8-4f7a-beb3-670a5c8bfbf8__L0",
       "name": "Menu Choice",
       "symbol": "var_menu_choice"

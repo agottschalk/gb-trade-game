@@ -1,0 +1,195 @@
+{
+  "_resourceType": "scene",
+  "id": "30f70a2c-6183-4541-99b3-dc72d942ec30",
+  "_index": 5,
+  "name": "sailing port left",
+  "backgroundId": "3cc9973f-2ce5-4c70-b00c-ee09d31dd220",
+  "tilesetId": "133cbda2-b73f-485a-a231-b48ef16c6b4b",
+  "width": 60,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00438+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 1216,
+  "y": 48,
+  "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "need to clean up sailing animation, it snaps between frames weirdly during the initial acceleration"
+      },
+      "id": "279717ab-091e-474c-8cc9-60b77bc743a5"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 42
+        },
+        "y": {
+          "type": "number",
+          "value": 91
+        },
+        "units": "pixels"
+      },
+      "id": "1c573f40-b90a-4fd9-9083-242b2a4f73fc"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 31,
+        "__collapse": false
+      },
+      "id": "9947cd5a-2e94-47b1-85e0-1243abde7946"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.25
+      },
+      "id": "431f9677-ac42-401d-be72-7e90870506bf"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "7c3e02c4-23ba-47c0-9c8a-b52569a673e6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.5
+      },
+      "id": "4801b23e-00df-4ecb-91e6-74174f01befb"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "fb23baf4-bf8b-4361-853b-8c3367c55171"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "2015b425-b6f4-4127-a566-4192d65c8b08"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 31
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "units": "tiles"
+      },
+      "id": "1b06429c-6fe2-4ef8-b1a8-583c6b2cff30"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "units": "tiles",
+        "__collapse": false
+      },
+      "id": "86dd6164-2878-4a2b-bc12-e739c15ae698"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "2497a9fc-0054-4804-8c04-64870e3da497",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "",
+        "fadeSpeed": 0
+      },
+      "id": "3c0e94e2-367a-4aee-a4a2-6c156338677e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2d8cd69d-a238-4897-b942-a4373b63b1dc",
+  "parallax": [
+    {
+      "height": 9,
+      "speed": 1
+    },
+    {
+      "height": 0,
+      "speed": 0
+    }
+  ]
+}

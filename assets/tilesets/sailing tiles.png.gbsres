@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "133cbda2-b73f-485a-a231-b48ef16c6b4b",
+  "name": "sailing tiles",
+  "symbol": "tileset_sailing_tiles",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "sailing tiles.png"
+}

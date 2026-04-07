@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3cc9973f-2ce5-4c70-b00c-ee09d31dd220",
+  "name": "sailing bkgd port left",
+  "symbol": "bg_sailing_bkgd_port_left",
+  "tileColors": "",
+  "filename": "sailing bkgd port left.png",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144
+}

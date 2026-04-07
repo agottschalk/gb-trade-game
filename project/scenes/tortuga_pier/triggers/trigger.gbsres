@@ -11,11 +11,20 @@
   "height": 2,
   "script": [
     {
-      "command": "EVENT_IF_INPUT",
+      "command": "EVENT_IF",
       "args": {
-        "input": [
-          "up"
-        ],
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "property",
+            "target": "player",
+            "property": "direction"
+          },
+          "valueB": {
+            "type": "direction",
+            "value": "up"
+          }
+        },
         "__collapseElse": true
       },
       "children": {
@@ -45,7 +54,7 @@
         ],
         "false": []
       },
-      "id": "5f75d2c7-d852-4300-978f-bbfc4484c862"
+      "id": "299c099c-ddd6-4f09-a96a-740ef5da2eac"
     }
   ],
   "leaveScript": [],

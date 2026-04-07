@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "be933650-0c16-4ec9-a750-381f2afc5d1d",
+  "name": "tortuga town",
+  "symbol": "bg_tortuga_town",
+  "tileColors": "",
+  "filename": "tortuga town.png",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320
+}
