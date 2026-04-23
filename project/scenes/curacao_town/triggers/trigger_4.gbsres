@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "c2a1248a-9510-4dd9-b504-6ef86b8b624c",
+  "name": "",
+  "prefabId": "",
+  "x": 28,
+  "y": 6,
+  "symbol": "trigger_9",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This building\nisn't open yet."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "fe9db5b1-7d10-4986-a90a-f4be74862aa3"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

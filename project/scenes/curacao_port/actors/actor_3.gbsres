@@ -1,0 +1,103 @@
+{
+  "_resourceType": "actor",
+  "id": "fce822f8-1afe-40de-8436-f98a106b45c3",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2e21e48a-8228-4a36-825f-e70965cafaca",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_20",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Welcome to the\nmarket!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8e7349d1-28ec-4c50-a355-ed5a675660f7"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "T0",
+        "trueText": "Trade",
+        "falseText": "Leave"
+      },
+      "id": "16c8fc67-eabb-41fc-9221-f9d93ca796d2"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "T0"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "cddf3180-306c-469d-9110-8205ee1a3032"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "fdd20e4f-1802-4413-876b-8a956ffe7226",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "direction": "right",
+              "fadeSpeed": 1
+            },
+            "id": "09e854ae-45ad-41b3-9c45-03a07d6256be"
+          }
+        ],
+        "false": []
+      },
+      "id": "8c003a34-bdfb-4b22-8f12-82845e08d0d0"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 10,
+  "y": 17,
+  "_index": 2
+}

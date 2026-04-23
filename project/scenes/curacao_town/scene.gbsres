@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "f9193850-60cb-4ca9-b4fd-94831911627e",
+  "_index": 10,
+  "name": "Curacao Town",
+  "backgroundId": "cb5c76cf-a96e-4faf-98b5-795c5be5a221",
+  "tilesetId": "",
+  "width": 60,
+  "height": 32,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "006+0f2+00c+0f2+00a+0f2+00c+0f6+00e+0f2+00c+0f2+00a+0f2+00c+0f6+00e+0f2+00c+0f2+00a+0f2+00c+0f6+00e+0f2+00c+0f2+00a+0f2+00c+0f6+00c+0f4+00c+0fe+0012+0f6+006+0f4+00c+0fe+0012+0f6+006+0f2+00e+0f2+002+0f4+002+0f2+0016+0f4+006+0f2+00e+0f2+002+0f4+002+0f2+0016+0f4+006+0f4+002e+0f4+006+0f4+002e+0f4+0038+0f4+0038+0f4+008+0f2+002e+0f4+008+0f2+002e+0f4+004+0f4+0030+0f4+004+0f4+0030+0f4+002+0f2+002c+0f2+006+0f2+004+0f2+002c+0f2+006+0f2+006+0f2+0018+0f6+0014+0f2+006+0f2+0018+0f6+0014+0f2+004+0fc+002+0fc+002+0f6+004+0f2+006+0fc+002+0fc+002+0fc+002+0f6+004+0f2+006+0fc+00c+0f14+002+0f1a+00c+0f14+002+0f1a+00c+0f2+002+0f2+008+0f6+0028+0f2+002+0f2+008+0f6+0028+0f2+00c+0f2+002+0f2+0028+0f2+00c+0f2+002+0f2+0028+0f2+003a+0f2+003a+0f2+003a+0f2+0030+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 440,
+  "y": 880,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

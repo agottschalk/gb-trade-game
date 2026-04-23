@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cb5c76cf-a96e-4faf-98b5-795c5be5a221",
+  "name": "curacao town",
+  "symbol": "bg_curacao_town",
+  "tileColors": "",
+  "filename": "curacao town.png",
+  "width": 60,
+  "height": 32,
+  "imageWidth": 480,
+  "imageHeight": 256
+}
