@@ -31,7 +31,11 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "f30f0e48-8702-41b3-a519-3d37ab94858a"
+        "customEventId": "f30f0e48-8702-41b3-a519-3d37ab94858a",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "34"
+        }
       },
       "id": "ec71d89e-9a7f-46f6-a7d7-1bde356b5c30"
     },

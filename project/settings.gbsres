@@ -1,11 +1,11 @@
 {
   "_resourceType": "settings",
   "startSceneId": "0946a878-7622-4288-bb70-ae703031f0ed",
-  "startX": 12,
-  "startY": 16,
+  "startX": 0,
+  "startY": 0,
   "startMoveSpeed": 2,
   "startAnimSpeed": 15,
-  "startDirection": "right",
+  "startDirection": "left",
   "showCollisionExtraTiles": false,
   "showCollisionTileValues": false,
   "collisionLayerOpacity": 50,
@@ -103,7 +103,34 @@
   "colorCorrection": "default",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
+  "scriptEventPresets": {
+    "EVENT_TEXT": {
+      "4d402f05-3f64-474a-a275-a1c340c345f4": {
+        "id": "4d402f05-3f64-474a-a275-a1c340c345f4",
+        "name": "Battle",
+        "groups": [
+          "layout",
+          "behaviour"
+        ],
+        "args": {
+          "position": "bottom",
+          "minHeight": 6,
+          "maxHeight": 6,
+          "textX": 1,
+          "textY": 2,
+          "textHeight": 3,
+          "clearPrevious": true,
+          "showFrame": "true",
+          "speedIn": -3,
+          "speedOut": -3,
+          "closeWhen": "key",
+          "closeButton": "any",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      }
+    }
+  },
   "scriptEventDefaultPresets": {},
   "runSceneSelectionOnly": false,
   "spriteMode": "8x16",
@@ -112,5 +139,6 @@
   "romFilename": "",
   "defaultSceneTypeId": "TOPDOWN",
   "disabledSceneTypeIds": [],
-  "autoTileFlipEnabled": false
+  "autoTileFlipEnabled": false,
+  "webTemplate": ""
 }

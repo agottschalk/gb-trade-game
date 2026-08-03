@@ -255,6 +255,16 @@
       "id": "a34c26fa-f3e5-47c9-9169-d9356c084375__L1",
       "name": "y move",
       "symbol": "var_y_move"
+    },
+    {
+      "id": "b85e869a-18b8-48d5-b51e-abe91300d852__L0",
+      "name": "choice",
+      "symbol": "var_choice"
+    },
+    {
+      "id": "b85e869a-18b8-48d5-b51e-abe91300d852__L1",
+      "name": "menu_available",
+      "symbol": "var_menu_available"
     }
   ],
   "constants": []

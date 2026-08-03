@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6d3f7c92-f94a-492c-828d-17e61e8b32f2",
+  "name": "pkmn_battle_screen",
+  "symbol": "bg_pkmn_battle_screen",
+  "tileColors": "",
+  "filename": "pkmn_battle_screen.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
