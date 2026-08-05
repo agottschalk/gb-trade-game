@@ -216,7 +216,7 @@
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "player_cannon_fire.png",
-  "width": 64,
+  "width": 80,
   "height": 16,
-  "checksum": "9e19895401ff0b368686cf761a1fdb9d662aa30e"
+  "checksum": "11b676d7b85b88b48106f869f29fbde02aa53390"
 }
