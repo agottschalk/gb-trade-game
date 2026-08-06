@@ -744,7 +744,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Draw wine qty"
       },
       "children": {
@@ -781,7 +781,7 @@
                     "tilesetId": "3c890849-f22c-4323-b945-f1526e89d180",
                     "tileIndex": {
                       "type": "expression",
-                      "value": "$27$ / 100"
+                      "value": "$28$ / 100"
                     }
                   },
                   "id": "1c3e8881-2f44-4e14-a9cc-31c32a253e3c"

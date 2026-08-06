@@ -230,25 +230,18 @@
         ],
         "true2": [
           {
-            "command": "EVENT_COMMENT",
-            "args": {
-              "text": "Placeholder, change when there is a PR scene"
-            },
-            "id": "691e0e54-1a52-4ebc-b890-ca091323a1a0"
-          },
-          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "d8d258fb-f6af-49ca-8dd4-6e8faa01013b",
+              "sceneId": "04167a17-6ebb-4b80-87ee-d59c4276b708",
               "x": {
                 "type": "number",
-                "value": 14
+                "value": 24
               },
               "y": {
                 "type": "number",
-                "value": 29
+                "value": 9
               },
-              "direction": "right",
+              "direction": "down",
               "fadeSpeed": "2"
             },
             "id": "2d9d567b-9b96-4be3-bc09-c16bc5ae6ba5"
