@@ -15,15 +15,37 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
   "x": 1016,
-  "y": 960,
+  "y": 912,
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "number",
+          "value": 50
+        }
+      },
+      "id": "5f740bdc-3827-402b-9f9c-7a92e7d3ec61"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 100
+        }
+      },
+      "id": "cfb8e160-014a-4432-bb6d-faa3ea97b06e"
+    },
     {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "4",
         "value": {
           "type": "number",
-          "value": 100
+          "value": 51
         }
       },
       "id": "b381c316-8880-4652-b190-df499ed98f42"
@@ -532,6 +554,17 @@
                                       "slot": 1
                                     },
                                     "id": "ab6f1061-2fa2-4603-b205-15d0198d5bfc"
+                                  },
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "L2",
+                                      "value": {
+                                        "type": "expression",
+                                        "value": "$L2$ - rnd(20)"
+                                      }
+                                    },
+                                    "id": "147e1bab-2d12-445a-bc85-171386ede7b0"
                                   },
                                   {
                                     "command": "EVENT_WAIT",

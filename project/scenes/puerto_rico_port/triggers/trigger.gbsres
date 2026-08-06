@@ -41,7 +41,7 @@
                 "type": "number",
                 "value": 31
               },
-              "direction": "",
+              "direction": "left",
               "fadeSpeed": "2"
             },
             "id": "d721b3a4-3cc9-4e50-a71d-47b5a7f51918"

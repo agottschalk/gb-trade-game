@@ -1,0 +1,129 @@
+{
+  "_resourceType": "actor",
+  "id": "4fba386c-8fda-48ba-b1b2-f003f6331792",
+  "name": "Hp bar helper",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "abc64e9b-7292-4de8-8ff8-62202eb84efb",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_27",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_RATE_LIMIT",
+      "args": {
+        "variable": "L5",
+        "time": {
+          "type": "number",
+          "value": 0.1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "4"
+                },
+                "valueB": {
+                  "type": "expression",
+                  "value": "$03$ / 2"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "",
+                    "loopAnim": true
+                  },
+                  "id": "100a3f0c-98a0-4e99-ad41-be1cb5f58cbc"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L0",
+                    "value": {
+                      "type": "expression",
+                      "value": "(48*$04$)/$03$+64"
+                    }
+                  },
+                  "id": "5ec1b1c2-f68b-44e1-8f59-ec231091fcb2"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "cover",
+                    "loopAnim": true
+                  },
+                  "id": "d2192ffd-447a-4c87-aecd-ca2bf999236b"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L0",
+                    "value": {
+                      "type": "expression",
+                      "value": "(48*$04$)/$03$+88"
+                    }
+                  },
+                  "id": "6bfaa373-6413-4c85-bd65-18575eb2c1df"
+                }
+              ]
+            },
+            "id": "1bf9dd75-155f-4197-9bc0-fcc0a3b4d038"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "y": {
+                "type": "number",
+                "value": 80
+              },
+              "units": "pixels"
+            },
+            "id": "c328c3c7-373d-41fa-afa2-b4abf78718fd"
+          }
+        ]
+      },
+      "id": "a009bdf7-f79b-452b-ae6c-953efba6206a"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 14,
+  "y": 10,
+  "_index": 1
+}

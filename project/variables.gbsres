@@ -265,6 +265,21 @@
       "id": "b85e869a-18b8-48d5-b51e-abe91300d852__L1",
       "name": "menu_available",
       "symbol": "var_menu_available"
+    },
+    {
+      "id": "b85e869a-18b8-48d5-b51e-abe91300d852__L2",
+      "name": "enemy_hp",
+      "symbol": "var_enemy_hp"
+    },
+    {
+      "id": "4fba386c-8fda-48ba-b1b2-f003f6331792__L0",
+      "name": "offset",
+      "symbol": "var_offset"
+    },
+    {
+      "id": "4fba386c-8fda-48ba-b1b2-f003f6331792__L5",
+      "name": "timer",
+      "symbol": "var_timer"
     }
   ],
   "constants": []
