@@ -30,6 +30,17 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "34",
+              "value": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "fd5d84be-3aca-4b27-b722-4efff5810881"
+          },
+          {
             "command": "EVENT_SCENE_PUSH_STATE",
             "args": {},
             "id": "d47ad832-009a-4439-af88-d69d43741dcd"

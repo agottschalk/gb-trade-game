@@ -18,13 +18,6 @@
   "y": 48,
   "script": [
     {
-      "command": "EVENT_COMMENT",
-      "args": {
-        "text": "need to clean up sailing animation, it snaps between frames weirdly during the initial acceleration\nflicker can be fixed by cleaning up the common tile set - make sure it uses the 8x8 tiles that are actually DISPLAYED rather than the ones used as sources"
-      },
-      "id": "279717ab-091e-474c-8cc9-60b77bc743a5"
-    },
-    {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
         "actorId": "$self$",
@@ -64,7 +57,7 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 3
         },
         "y": {
           "type": "number",
@@ -93,7 +86,7 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 3
         },
         "y": {
           "type": "number",
@@ -144,7 +137,7 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 7
         },
         "y": {
           "type": "number",
@@ -166,7 +159,7 @@
         "sceneId": "2497a9fc-0054-4804-8c04-64870e3da497",
         "x": {
           "type": "number",
-          "value": 8
+          "value": 10
         },
         "y": {
           "type": "number",
@@ -181,15 +174,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "e3f53f18-ab43-46a0-9a7c-ca9974a518da",
-  "parallax": [
-    {
-      "height": 9,
-      "speed": 1
-    },
-    {
-      "height": 0,
-      "speed": 0
-    }
-  ]
+  "playerSpriteSheetId": "e3f53f18-ab43-46a0-9a7c-ca9974a518da"
 }

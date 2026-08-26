@@ -30,6 +30,22 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "34",
+              "value": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "6b94c2ea-eb32-4b79-acdc-9f47062bfb2b"
+          },
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "ef3ae999-9ea9-4c84-86cb-f2075ff5c31f"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "55694df8-52fa-4cb4-9af0-dcac5e90a955",

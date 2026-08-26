@@ -23,7 +23,7 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 64
+          "value": 81
         },
         "y": {
           "type": "number",
@@ -63,7 +63,7 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 10
+          "value": 7
         },
         "y": {
           "type": "number",
@@ -86,7 +86,7 @@
         "sceneId": "5111653c-6fb2-4ba2-90b7-917e3f986495",
         "x": {
           "type": "number",
-          "value": 8
+          "value": 9
         },
         "y": {
           "type": "number",
@@ -101,15 +101,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "e3f53f18-ab43-46a0-9a7c-ca9974a518da",
-  "parallax": [
-    {
-      "height": 9,
-      "speed": 1
-    },
-    {
-      "height": 0,
-      "speed": 0
-    }
-  ]
+  "playerSpriteSheetId": "e3f53f18-ab43-46a0-9a7c-ca9974a518da"
 }
